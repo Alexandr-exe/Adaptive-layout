@@ -1,0 +1,20 @@
+.leader__image{
+  min-width: 320px;
+  min-height: 211px;
+  margin: 0;
+}
+
+@media (min-width:1024px){
+  .leader__image{
+    max-width: 928px;
+    max-height: 554px;
+    margin: auto;
+  }
+}
+
+@media (min-width:1280px){
+  .leader__image{
+    max-width: 984px;
+    margin: auto;
+  }
+}

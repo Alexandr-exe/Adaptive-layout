@@ -1,0 +1,22 @@
+@import './__img/comment__img.css';
+@import './__quote/comment__quote.css';
+@import './__author/comment__author.css';
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 382px;
+    margin:0 auto 48px;
+}
+@media (min-width:1024px){
+    .comment{
+        align-items: flex-start;
+        max-width: 296px;
+    }
+}
+@media (min-width:1280px){
+    .comment{
+        max-width: 382px;
+    }
+}

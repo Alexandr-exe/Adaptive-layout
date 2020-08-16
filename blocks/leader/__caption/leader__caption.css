@@ -1,0 +1,18 @@
+.leader__caption{
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+@media (min-width:768px){
+  .leader__caption{
+    margin-left: 24px;
+  }
+}
+@media (min-width:1024px){
+  .leader__caption{
+    margin-left: 0;
+  }
+}

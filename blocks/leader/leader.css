@@ -1,0 +1,17 @@
+@import './__title/leader__title.css';
+@import './__subtitle/leader__subtitle.css';
+@import './__image/leader__image.css';
+@import './__figure/leader__figure.css';
+@import './__caption/leader__caption.css';
+
+.leader{
+  min-width: 320px;
+  margin: auto;
+  padding: 32px 0;
+}
+@media (min-width:768px){
+  .leader{
+    margin: auto;
+    padding: 32px 0 40px;
+  }
+}
