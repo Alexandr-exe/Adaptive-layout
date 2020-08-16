@@ -1,0 +1,29 @@
+.leader__title{
+  max-width: 290px;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  margin: 0 auto 8px;
+}
+
+@media (min-width:768px){
+  .leader__title{
+    max-width: 677px;
+    font-size: 96px;
+    line-height: 93px;
+    margin: 0 auto 48px;
+  }
+}
+
+@media (min-width:1024px){
+  .leader__title{
+    max-width: 676px;
+    margin: 0 auto 46px;
+  }
+}
+
+@media (min-width:1440px){
+  .leader__title{
+    margin: 0 auto 48px;
+  }
+}

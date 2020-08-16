@@ -1,0 +1,47 @@
+.video__item{
+    box-sizing: border-box;
+    padding: 16px 0 16px 16px;
+    width: 288px;
+    height: 192px;
+    border-radius: 5px;
+}
+.video__item:hover::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+}
+
+@media (min-width:374px){
+    .video__item{
+        width: 343px;
+        height: 200px;
+        padding: 24px 0 24px 24px;
+    }
+}
+
+@media (min-width:374px){
+    .video__item{
+        width: 352px;
+        height: 200px;
+        padding: 24px 0 24px 24px;
+    }
+}
+@media (min-width:1024px){
+    .video__item{
+        width: 456px;
+        height: 288px;
+    }
+}
+@media (min-width:1280px){
+    .video__item{
+        width: 583px;
+        height: 323px;
+    }
+}

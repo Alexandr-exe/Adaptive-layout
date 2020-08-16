@@ -1,0 +1,41 @@
+@import './__container/video__container.css';
+@import './__container/video__container.css';
+@import './__item/video__item.css';
+@import './__item/_Kamchatkaof/video__item_Kamchatkaof.css';
+@import './__item/_observatory/video__item_observatory.css';
+@import './__item-bg/video__item-bg.css';
+@import './__info/video__info.css';
+@import './__title/video__title.css';
+@import './__subtitle/video__subtitle.css';
+@import './__duration/video__duration.css';
+
+.video{
+    padding: 32px 0;
+    max-width: 288px;
+    margin: 0 auto;
+}
+
+@media (min-width:374px){
+    .video{
+        max-width: 343px;
+    }
+}
+
+@media (min-width:768px){
+    .video{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:1024px){
+    .video{
+        padding: 50px 0;
+        max-width: 928px;
+    }
+}
+@media (min-width:1280px){
+    .video{
+        padding: 50px 0;
+        max-width: 1180px;
+    }
+}

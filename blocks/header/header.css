@@ -1,0 +1,24 @@
+@import './__logo/header__logo.css';
+@import './__langs/header__langs.css';
+@import './__lang/header__lang.css';
+@import './__lang/__lang_active/header__lang_active.css';
+
+
+.header{
+  min-width: 288px;
+  padding: 16px;
+  display: flex;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: space-between;
+}
+@media(min-width:1024px){
+  .header{
+    max-width: 928px;
+  }
+}
+@media(min-width:1280px){
+  .header{
+    max-width: 1184px;
+  }
+}

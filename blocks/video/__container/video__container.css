@@ -1,0 +1,11 @@
+.video__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+}
+
+@media (min-width:768px){
+    .video__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}

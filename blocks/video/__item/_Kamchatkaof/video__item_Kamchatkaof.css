@@ -1,0 +1,7 @@
+.video__item_Kamchatkaof{
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) ,url('../../../../img/Kamchatkaof.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
